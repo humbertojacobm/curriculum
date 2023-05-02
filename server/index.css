@@ -1,0 +1,252 @@
+html { -webkit-print-color-adjust: exact; }
+
+@font-face {
+    font-family: sofia;
+    src: url("public/sofiapro-light.otf") format("opentype");
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    height: 1100px;
+}
+
+body{
+    margin: 0;
+    font-family: sofia;
+}
+
+.main{
+    width: 70%;
+    background-color: white;
+    color: #4b8bbe;
+    padding: 20px 30px 20px 30px;
+}
+
+.secondary{
+    color: #b4b09fb8;
+}
+
+.tertiary{
+    color: #dfddd2b8;
+    font-size: 13px;
+}
+
+.information{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-left: solid 5px #FFE873;
+    border-radius: 20px 0 0 20px;
+    color: white;
+}
+
+.information img.profile {
+    border-radius: 50%;
+    width: 100px;
+    border: solid 2px #FFE873;
+    margin-top: 100px;
+}
+
+.mt-10{
+    margin-top: 10px;
+}
+
+h1{
+    margin: 0;
+    font-size: 15px;
+    font-weight: 900;
+}
+
+h4{
+    margin: 0;
+}
+
+h5{
+    margin: 0;
+}
+
+.link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8px;
+    font-size: 10px;
+}
+
+.link img{
+    width: 25px;
+    margin-right: 10px;
+}
+
+.links{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    font-size: 14px;
+}
+
+a{
+    color: white;
+    text-decoration:none
+}
+
+.information .item{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 80%;
+}
+
+.small{
+    font-size: 10px;
+}
+
+.nm{
+    margin: 0;
+}
+
+.mt-15{
+    margin: 15px 0 0 0;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    margin: 8px 0 8px 0;
+}
+
+.title img{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.job-experience{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.job-experience a img{
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+
+.job-experience .company{
+    display: flex;
+    width: 50%;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+}
+
+.job-experience .date{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: end;
+}
+
+.job-experience-description{
+    width: 100%
+}
+
+.job-experience-description p{
+    margin: 0;
+    font-size: 10px;
+}
+
+
+
+.bold{
+    font-weight: 900 !important;
+    color: #015396;
+}
+
+.ligth{
+    font-weight: 100;
+    font-size: 10px;
+}
+
+.job-experience-technologies{
+    margin: 10px 0 0 0;
+    display: flex;
+    align-items: center;
+}
+
+.job-experience-technologies h4{
+    font-weight: 900;
+    margin-right: 10px;
+    font-size: 14px;
+    color: #015396;
+}
+
+.job-experience-technologies p{
+    font-weight: 900;
+    font-size: 10px;
+    color: #015396;
+}
+
+p{
+    margin: 0;
+}
+
+.mt-30{
+    margin-top: 15px;
+}
+
+.skills{
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.skills h3{
+    margin: 0 10px 0 0;
+}
+
+.skill-item{
+    display: flex;
+    align-items: center;
+    font-weight: 900;
+    width: 100%;
+}
+
+.skill-item h4{
+    font-size: 12px;
+}
+
+.skill-item img{
+    margin-right: 5px;
+    width: 20px;
+}
+
+.skill-list{
+    display: flex;
+    justify-content: start;
+    gap: 3%;
+}
+
+.skill-comment{
+    margin-top: 8px;
+    font-size: 10px;
+}
+
+.p{
+    font-size: 10px;
+}
+
+h2{
+    margin: 0;
+    font-size: 15px;
+}
+
+.company h4{
+    font-size: 14px;
+}

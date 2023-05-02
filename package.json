@@ -1,0 +1,17 @@
+{
+  "name": "cv",
+  "version": "1.0.0",
+  "description": "CV template generation",
+  "main": "index.js",
+  "scripts": {
+    "make": "node ./index.js"
+  },
+  "keywords": [
+    "Curriculum"
+  ],
+  "author": "Daniel Carbajal",
+  "license": "ISC",
+  "dependencies": {
+    "html-pdf-node": "^1.0.8"
+  }
+}
