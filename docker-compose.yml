@@ -1,0 +1,22 @@
+services:
+  web_server:
+    image: nginx:alpine
+    restart: always
+    ports:
+      - ${PORT}:${PORT}
+    volumes:
+      - ./public:/srv
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf
+
+  pdf_maker:
+    build: .
+    tty: true
+    environment:
+      - PORT=${PORT}
+      - SERVICE_NAME=${SERVICE_NAME}
+    depends_on:
+      - web_server
+
+  http-client:
+    image: badouralix/curl-jq
+    tty: true

@@ -20,7 +20,7 @@ body{
     width: 70%;
     background-color: white;
     color: #4b8bbe;
-    padding: 20px 30px 20px 30px;
+    padding: 0px 30px 20px 30px;
 }
 
 .secondary{
@@ -30,6 +30,7 @@ body{
 .tertiary{
     color: #dfddd2b8;
     font-size: 13px;
+    text-align: center;
 }
 
 .information{
@@ -250,3 +251,21 @@ h2{
 .company h4{
     font-size: 14px;
 }
+
+.title .text{
+    color: #FFE874;
+    background-color: #4b8bbe;
+    padding: 3px 20px;
+    border-radius: 10px;
+    line-height: 13px;
+}
+
+.title .text h2{
+    padding-top: 2px;
+    min-width: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
