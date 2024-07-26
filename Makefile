@@ -12,7 +12,7 @@ down:
 build:
 	@docker compose build
 
-generate-pdf:
+generate-pdf: up
 	@docker compose exec pdf_maker sh -c "node ./index.js"
 	@docker compose cp pdf_maker:./cv.pdf ./public/cv.pdf
 
