@@ -20,4 +20,5 @@ test-html: up
 	@docker compose exec http-client sh -c "curl -X GET http://${SERVICE_NAME}:${PORT}"
 
 view-pdf: up generate-pdf
+	sleep 0.5
 	@open http://localhost:8008/cv.pdf
