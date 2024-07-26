@@ -1,0 +1,4 @@
+FROM node:20-alpine AS build
+RUN npm install -g live-server
+
+CMD ["live-server", "--port=8008", "--no-browser", "/public"]
