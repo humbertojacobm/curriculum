@@ -12,6 +12,7 @@
   "author": "Daniel Carbajal",
   "license": "ISC",
   "dependencies": {
-    "html-pdf-node": "^1.0.8"
+    "html-pdf-node": "^1.0.8",
+    "make": "^0.8.1"
   }
 }
